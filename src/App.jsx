@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 import { fetchdatafromapi } from './utils/api.js'
 import { useSelector, useDispatch } from 'react-redux'
 import { getApiConfiguration,getGenres } from './store/homeSlice.js';
-
+import Home from './pages/home/Home.jsx';
 
 function App() {
   const dispatch = useDispatch();
